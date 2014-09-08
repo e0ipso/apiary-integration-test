@@ -12,14 +12,18 @@ In order to maintain a workflow that will keep the documentation centralized and
 ### Documentation updates workflow.
   1. Every time that you need to make an update of the docs modify `apiary.apib` in your local.
   1. Preview the documentation locally by running:
-  ```sh
+
+  ```shell
   apiary preview
   ```
+
   1. Submit a pull request to the documentation repository.
   1. After the PR has been peer reviewed and has the green light of at least one more peer, **close** the PR without merging it and run:
-  ```sh
+
+  ```shell
   apiary publish --api-name [API-NAME] --message '[CHANGE-MESSAGE]'
   ```
+
   This will update the documentation in the apiary.io servers (updating the mock servers and the provided documentation) and it will create a commit with the changes in the master branch of the  documentation repository.
 
 ## Making sure everyone is on the same page.
