@@ -6,7 +6,7 @@ In order to maintain a workflow that will keep the documentation centralized and
 
 ### Initial setup.
   1. The repository owner and the apiary.io account owner should connect both accounts according to [this post](http://blog.apiary.io/2012/10/08/collaborating-through-github/).
-  1. First of all clone this repo in you local. This will allow you to get the API documentation file called `apiary.apib`.
+  1. First of all clone the documentation repo in you local. This will allow you to get the API documentation file called `apiary.apib`.
   1. Install the `apiary` command line gem as described in [this article](https://github.com/apiaryio/apiary-client#install).
 
 ### Documentation updates workflow.
